@@ -1,0 +1,134 @@
+
+
+body{
+    margin: 1% 0 ;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.main-menu{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+ }
+
+.main-menu a{
+	color: #828282;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px; 
+}
+
+.main-menu a:hover{
+    color: #000000;
+     font-weight: bold;
+}
+
+.container {
+	max-width: 940px;
+    margin:0 auto;
+}
+
+#my_name{
+font-size: 47.3392px;
+line-height: 59px;
+float:left;
+margin: 10px 0px;
+    padding: 10px;
+}
+
+#depiction{
+font-size: 18px;
+line-height: 22px; 
+/*text-align: center;*/
+float: right;
+margin: 20px 0px;
+    padding: 10px;
+}
+
+.backgraund {
+    width: 100%;
+    background: #F6F6F6;
+}
+
+#about {
+     margin: 5%;
+    padding: 5%;
+}
+
+.heading {
+font-size: 34px;
+line-height: 42px;
+text-align: center;
+}
+
+.text {
+    margin: 1%;
+    padding: 3%;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+}
+
+#skills{
+    margin: 1%;
+    padding: 3%;
+    
+}
+
+.shell{
+     width: 100%;
+    list-style: none;
+    padding: 0 0 3%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+.picture{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+        text-decoration: none;
+}
+
+#portfolio {
+    margin: 1%;
+    padding: 3%;
+}
+
+#contacts{
+    margin: 1%;
+    padding: 3%;
+    
+}
+
+.box{
+     width: 100%;
+    list-style: none;
+    padding:0 0 3%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;  
+}
+
+.pic{
+     display: inline-block;
+    margin: 0;
+    padding: 3%;
+        text-decoration: none;
+}

@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('../fonts/gilroy-medium.eot'); /* IE 9 Compatibility Mode */
+    src: url('../fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+        url('../fonts/gilroy-medium.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/gilroy-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+        url('../fonts/gilroy-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/gilroy-medium.svg#gilroy-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body{
+    margin: 10px ;
+    padding: 10px;
+}
+
+.main-menu{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main-menu li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+ }
+
+.main-menu a{
+	color: #828282;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0;
+    font: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px; 
+}
+
+.main-menu a:hover{
+    color: #000000;
+}
+
+.container {
+	max-width: 940px;
+    margin:0 auto;
+    /*flex-flow: row wrap;*/
+ 
+}
+
+#my_name{
+	font-family: "Gilroy-Bold";
+font-size: 47.3392px;
+line-height: 59px;
+float:left;
+margin: 10px 0px;
+    padding: 10px;
+}
+
+#depiction{
+	font-family: 'Gilroy-Medium';
+font-size: 18px;
+line-height: 22px; 
+/*text-align: center;*/
+float: right;
+margin: 20px 0px;
+    padding: 10px;
+   }
+
+.backgraund {
+    width: 100%;
+    background: #F6F6F6;
+    height: 506px;
+}
+
+#about {
+     margin: 5%;
+    padding: 5%;
+    
+}
+
+#op {
+    font-family: 'Gilroy-Bold';
+font-size: 34px;
+line-height: 42px;
+text-align: center;
+}
+
+.text {
+    margin: 1%;
+    padding: 1%;
+    font-family: "Gilroy-Medium";
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+}
